@@ -15,16 +15,12 @@ function Greeting({ greeting, fetchRandomGreeting }) {
   );
 }
 
-const mapStateToProps = (state) => {
-  return {
-    greeting: state.greeting,
-  };
-};
+const mapStateToProps = (state) => ({
+  greeting: state.greeting,
+});
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    fetchRandomGreeting: () => dispatch(fetchRandomGreeting()),
-  };
-};
+const mapDispatchToProps = (dispatch) => ({
+  fetchRandomGreeting: () => dispatch(fetchRandomGreeting()),
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(Greeting);
