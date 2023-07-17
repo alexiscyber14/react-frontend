@@ -1,70 +1,187 @@
-# Getting Started with Create React App
+<div align="center">
+  <h3><b>Hello React Front-end</b></h3>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Catalog of my things ](#-catalog-of-my-things-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Dependencies](#dependencies)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
-In the project directory, you can run:
+<!-- PROJECT DESCRIPTION -->
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📖 Hello Rails Back-End and Hello React Front-End<a name="about-project"></a>
+ 
+> This is a simple full-stack application consisting of a Rails API back-end and a React front-end. The back-end provides a random greeting from a PostgreSQL database, and the front-end displays the greeting.
 
-### `npm run build`
+<a href="https://github.com/alexiscyber14/rails_backend">HERE IS THE LINK TO THE Rails backend</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Built With <a name="built-with"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Tech Stack <a name="tech-stack"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby (v3.2.2)</a></li>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails (v7.0.5)(API mode)</a></li>
+<li>PostgreSQL</li>
+<li>React</li>
+<li>Redux</li>
+<li>react-router-dom</li>
+<li>Axios</li>
+  </ul>
+</details>
+<details>
+  <summary>Database</summary>
+  <ul>
+    <li><a href="https://postgresql.org">PostgreSQL</a></li>
+  </ul></details>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Key Features <a name="key-features"></a>
+- [ ] **Randomly selects and displays a greeting from the database.**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [ ] **Uses React and Redux for the front-end.**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [ ] **Utilizes react-router-dom for routing between components.**
 
-## Learn More
+- [ ] **Implements a Rails API back-end with PostgreSQL for data storage.**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Code Splitting
+> To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
 
-### Analyzing the Bundle Size
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Ruby installed on your machine
+2. Text editor (VSCode, Sublime, Atom, etc.)
+3. Install Rails gem.
+4. PostgreSQL running on your machine
+5. PostgreSQL
+6. Node.js
+7. npm
 
-### Making a Progressive Web App
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Clone this [repository](https://github.com/alexiscyber14/react-frontend.git) to your desired folder:
 
-### Advanced Configuration
+```sh
+  git clone https://github.com/alexiscyber14/react-frontend.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Dependencies
 
-### Deployment
+Install Dependencies with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```sh
+npm install
+```
+### Usage
 
-### `npm run build` fails to minify
+Run Project with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+npm start
+```
+
+### Run tests
+
+Run tests with:
+
+```sh
+  rspec
+```
+
+## API End-Points
+- Retrieve a Random Greeting
+- Endpoint: /random-greeting
+
+- Method: GET
+GET /random-greeting: Retrieves a random greeting from the database.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Caleb Nwaizu**
+
+- GitHub: [@alexiscyber14](https://github.com/alexiscyber14)
+- Instagram:[@Alexiscyber14](https://www.instagram.com/alexiscyber14/)
+- LinkedIn:[@Alex_Ssenyoondo](https://www.linkedin.com/in/alex-software/)
+- wellfound:[@alexiscyber14](https://angel.co/u/alexander-senyondo)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Implement user authentication and authorization.**
+
+- [ ] **Add the ability for users to create and save their own greetings.**
+
+- [ ] **Enhance the UI with styling and additional components.**
+
+- [ ] **Add error handling and validation.**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/alexiscyber14/react-frontend/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please leave a ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I thank Microverse for making this project possible.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
