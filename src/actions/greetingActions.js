@@ -1,7 +1,7 @@
 export const fetchRandomGreeting = () => {
     return async (dispatch) => {
       try {
-        const response = await fetch('http://localhost:3001/random-greeting');
+        const response = await fetch('http://localhost:3000/random-greeting');
         const data = await response.json();
         dispatch(setRandomGreeting(data.greeting));
       } catch (error) {
